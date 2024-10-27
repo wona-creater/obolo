@@ -234,7 +234,7 @@
             window.location.href = "https://minetechlab.com/change-lang/" + code;
         });
     </script>
-    <a href="https://wa.me/+447553182072" class="whatsapp-button" target="_blank">
+    <a href="https://wa.me/+16196084881" class="whatsapp-button" target="_blank">
         <img src="https://www.flaticon.com/free-icons/whatsapp" alt="WhatsApp">
 
     </a>

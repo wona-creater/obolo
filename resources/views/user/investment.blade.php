@@ -25,12 +25,15 @@
                                     <div class="new-arrival-content text-center mt-3">
                                         <h4>Plan</h4>
                                         <span class="price">{{ $investment->plan }}</span><br><br>
+
                                         <h4>Minimum Amount</h4>
                                         <span class="price">${{ $investment->min }}</span><br><br>
+
                                         <h4>Maximum Amount</h4>
                                         <span class="price">${{ $investment->max }}</span><br><br>
+
                                         <h4>Duration</h4>
-                                        <span class="price">${{ $investment->duration }}</span><br><br>
+                                        <span class="price">{{ $investment->duration }}Days</span><br><br>
                                         <h4>Percentage</h4>
                                         <span class="price">{{ $investment->percentage }}</span><br><br>
                                         <form action="{{ route('investments.invest', $investment->id) }}"
